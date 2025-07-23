@@ -1,7 +1,7 @@
 # **MindChain**
 
 <div align="center">
-  
+   
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
   [![React](https://img.shields.io/badge/React-v18.2.0-61dafb.svg)](https://reactjs.org/)
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v3.3.0-38bdf8.svg)](https://tailwindcss.com/)
