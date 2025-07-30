@@ -14,7 +14,10 @@ const origins = [
     'https://mind-chain.vercel.app',
 ];
 app.use(cors({
-    origin: origins,
+    origin: (origin, callback) => {
+        callback(null, true);  
+    },
+    credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE']
 }));
 app.use(express.json());
